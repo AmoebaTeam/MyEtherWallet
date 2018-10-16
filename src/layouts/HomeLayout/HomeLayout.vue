@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <top-banner/>
-    <about/>
-    <faqs/>
-    <news v-show="online"/>
+    <!--    <about/>
+    <faqs/>-->
+    <!--<news v-show="online"/>-->
     <social/>
     <promo/>
   </div>

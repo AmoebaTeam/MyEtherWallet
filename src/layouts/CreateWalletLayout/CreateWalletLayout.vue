@@ -13,7 +13,7 @@
           class="nav-tab-user-input-box">
           <b-tabs class="x100">
             <div class="progress-bar"/>
-            <b-tab
+            <!--<b-tab
               class="mew-connect-block"
               title="MEWconnect"
               active>
@@ -38,7 +38,7 @@
                 <img src="@/assets/images/etc/phones.png">
               </div>
 
-            </b-tab>
+            </b-tab>-->
             <b-tab title="By JSON File">
 
               <div class="title-block">
