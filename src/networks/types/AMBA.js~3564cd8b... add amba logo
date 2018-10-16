@@ -1,6 +1,6 @@
-import tokens from '@/tokens/tokens-amba.json';
-import contracts from '@/contracts/contract-abi-etc.json';
-import amba from '@/assets/images/networks/amba.svg';
+// import tokens from '@/tokens/tokens-etc.json';
+import contracts from '@/contracts/contract-abi-eth.json';
+import etc from '@/assets/images/networks/amba.svg';
 // import { EthAbi } from '../ensAbis';
 
 export default {
@@ -9,10 +9,10 @@ export default {
   homePage: 'https://ethereumclassic.org/',
   blockExplorerTX: 'https://gastracker.io/tx/[[txHash]]',
   blockExplorerAddr: 'https://gastracker.io/address/[[address]]',
-  chainID: 123456,
-  tokens: tokens,
+  chainID: 61,
+//  tokens: tokens,
   contracts: contracts,
   ensResolver: '',
   ensAbi: '',
-  icon: amba
+  icon: etc
 };

@@ -46,7 +46,7 @@
                 {{ $t("footer.donate") }}
               </h3>
             </div>
-            <div class="content-links">
+<!--            <div class="content-links">
               <p>{{ $t("footer.welcomeDes") }}</p>
 
               <a
@@ -71,7 +71,7 @@
                 </p>
               </a>
 
-            </div>
+            </div>  -->
           </div>
         </div>
         <div class="flex-space-between foot-note">
@@ -147,34 +147,6 @@ export default {
           ]
         },
         {
-          class: 'e2',
-          title: this.$t('footer.affiliates'),
-          contents: [
-            {
-              text: this.$t('footer.ledger'),
-              href:
-                'https://www.ledgerwallet.com/products/?utm_source=&utm_medium=affiliate&utm_campaign=fa4b&utm_content='
-            },
-            {
-              text: this.$t('footer.digital'),
-              href: 'https://digitalbitbox.com/?ref=mew'
-            },
-            {
-              text: this.$t('footer.ethCard'),
-              href:
-                'https://ether.cards/?utm_source=mew&utm_medium=cpm&utm_campaign=site'
-            },
-            {
-              text: this.$t('footer.trezor'),
-              href: 'https://trezor.io/?a=myetherwallet.com'
-            },
-            {
-              text: this.$t('footer.bity'),
-              href: 'https://bity.com/af/jshkb37v'
-            }
-          ]
-        },
-        {
           class: 'e3',
           title: this.$t('footer.mew'),
           contents: [
@@ -203,33 +175,21 @@ export default {
       ],
       links: [
         {
-          to: 'https://www.facebook.com/myetherwallet',
+          to: 'https://www.facebook.com/AmoebaCoin',
           class: 'fa-facebook'
         },
         {
-          to: 'https://www.twitter.com/@myetherwallet',
+          to: 'https://www.twitter.com/@AmoebaCoin',
           class: 'fa-twitter'
         },
         {
-          to: 'https://www.instagram.com/myetherwallet',
-          class: 'fa-instagram'
-        },
-        {
-          to: 'https://www.linkedin.com/company/myetherwallet',
-          class: 'fa-linkedin'
-        },
-        {
-          to: 'https://www.github.com/myetherwallet',
+          to: 'https://www.github.com/Amoebateam',
           class: 'fa-github'
         },
         {
-          to: 'https://www.reddit.com/r/myetherwallet',
+          to: 'https://www.reddit.com/r/AmoebaCoin',
           class: 'fa-reddit-alien'
         },
-        {
-          to: 'https://www.medium.com/@myetherwallet',
-          class: 'fa-medium'
-        }
       ]
     };
   },

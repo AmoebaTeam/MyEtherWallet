@@ -46,8 +46,8 @@ async function fetchContracts () {
 }
 
 function run () {
-  fetchTokens()
-  fetchContracts()
+//  fetchTokens()
+//  fetchContracts()
 }
 
 run()

@@ -1,16 +1,6 @@
 <template>
   <div class="access-my-wallet-options">
 
-    <mew-connect-modal
-      ref="mewconnectModal"
-      :network-and-address-open="networkAndAddressOpen"/>
-
-    <hardware-modal
-      ref="hardwareModal"
-      :network-and-address-open="networkAndAddressOpen"
-      @hardwareRequiresPassword="hardwarePasswordModalOpen"
-      @hardwareWalletOpen="hardwareWalletOpen"/>
-
     <hardware-password-modal
       ref="hardwarePasswordModal"
       :wallet-constructor="walletConstructor"
@@ -90,13 +80,13 @@ import SoftwareModal from '../../components/SoftwareModal';
 import MnemonicPasswordModal from '../../components/MnemonicPasswordModal';
 import MnemonicModal from '../../components/MnemonicModal';
 
-import mewConnectImg from '@/assets/images/icons/button-mewconnect.svg';
-import hardwareImg from '@/assets/images/icons/button-hardware.svg';
+//import mewConnectImg from '@/assets/images/icons/button-mewconnect.svg';
+//import hardwareImg from '@/assets/images/icons/button-hardware.svg';
 import metamaskImg from '@/assets/images/icons/button-metamask.svg';
 import softwareImg from '@/assets/images/icons/button-software.svg';
 
-import mewConnectDisabledImg from '@/assets/images/icons/mewconnect-disable.svg';
-import hardwareDisabledImg from '@/assets/images/icons/hardware-disable.svg';
+//import mewConnectDisabledImg from '@/assets/images/icons/mewconnect-disable.svg';
+//import hardwareDisabledImg from '@/assets/images/icons/hardware-disable.svg';
 import metamaskDisabledImg from '@/assets/images/icons/metamask-disable.svg';
 
 export default {
@@ -122,24 +112,24 @@ export default {
       walletConstructor: function() {},
       hardwareBrand: '',
       buttons: [
-        {
-          func: this.mewConnectModalOpen,
-          title: this.$t('common.mewConnect'),
-          desc: this.$t('accessWallet.mewConnectDesc'),
-          recommend: '',
-          tooltip: this.$t('common.toolTip3'),
-          img: this.$store.state.online ? mewConnectImg : mewConnectDisabledImg,
-          disabled: this.$store.state.online
-        },
-        {
-          func: this.hardwareModalOpen,
-          title: this.$t('common.hardware'),
-          desc: 'Ledger wallet; Trezor; Digital bitbox; Secalot',
-          recommend: '',
-          tooltip: this.$t('common.toolTip3'),
-          img: this.$store.state.online ? hardwareImg : hardwareDisabledImg,
-          disabled: this.$store.state.online
-        },
+//        {
+//          func: this.mewConnectModalOpen,
+//          title: this.$t('common.mewConnect'),
+//          desc: this.$t('accessWallet.mewConnectDesc'),
+//          recommend: '',
+//          tooltip: this.$t('common.toolTip3'),
+//          img: this.$store.state.online ? mewConnectImg : mewConnectDisabledImg,
+//          disabled: this.$store.state.online
+//        },
+//        {
+//          func: this.hardwareModalOpen,
+//          title: this.$t('common.hardware'),
+//          desc: 'Ledger wallet; Trezor; Digital bitbox; Secalot',
+//          recommend: '',
+//          tooltip: this.$t('common.toolTip3'),
+//          img: this.$store.state.online ? hardwareImg : hardwareDisabledImg,
+//          disabled: this.$store.state.online
+//        },
         {
           func: this.metamaskModalOpen,
           title: 'MetaMask',

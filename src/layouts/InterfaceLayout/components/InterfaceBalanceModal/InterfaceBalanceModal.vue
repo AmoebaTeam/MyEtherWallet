@@ -10,7 +10,7 @@
         <div class="flex-container">
           <h4 class="modal-title">{{ $t('common.totalBalance') }}</h4>
           <div class="margin-left-auto total-balance-amount">
-            <span>{{ balance }}</span> ETH
+            <span>{{ balance }}</span> AMBA
           </div>
         </div>
       </div>

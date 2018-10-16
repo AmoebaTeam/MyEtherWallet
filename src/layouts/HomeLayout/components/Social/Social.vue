@@ -27,26 +27,26 @@
 
 <script>
 import github from '@/assets/images/icons/github.png';
-import reddit from '@/assets/images/icons/reddit.svg';
-import slack from '@/assets/images/icons/slack.png';
+// import reddit from '@/assets/images/icons/reddit.svg';
+// import slack from '@/assets/images/icons/slack.png';
 
 export default {
   data() {
     return {
       links: [
-        {
-          img: slack,
-          to: 'https://www.google.com',
-          name: 'slack'
-        },
-        {
-          img: reddit,
-          to: 'https://www.reddit.com/r/myetherwallet',
-          name: 'reddit'
-        },
+//        {
+//          img: slack,
+//          to: 'https://www.google.com',
+//          name: 'slack'
+//        },
+//        {
+//          img: reddit,
+//          to: 'https://www.reddit.com/r/myetherwallet',
+//          name: 'reddit'
+//        },
         {
           img: github,
-          to: 'https://www.github.com/myetherwallet',
+          to: 'https://github.com/AmoebaTeam',
           name: 'github'
         }
       ]

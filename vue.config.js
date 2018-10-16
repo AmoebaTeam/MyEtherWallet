@@ -7,10 +7,8 @@ const webpackConfig = {
     process: true
   },
   devServer: {
-    https: true,
-    host: 'localhost',
-    hotOnly: true,
-    port: 8080
+    host: '0.0.0.0',
+    port: 88
   },
   plugins: [
     new Dotenv({

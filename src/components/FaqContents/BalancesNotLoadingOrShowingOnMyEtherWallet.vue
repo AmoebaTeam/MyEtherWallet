@@ -37,7 +37,7 @@
         Try connecting to a different network in the top-right corner. Choosing one that you are not currently connected to may solve your problem. If you are interacting with the Ethereum blockchain, you have four nodes to choose from:
 
         <ul class="list-in-block">
-          <li>MyEtherWallet</li>
+          <li>MyAmoebaWallet</li>
           <li>Etherscan.io</li>
           <li>Infura.io</li>
           <li>Giveth.io</li>

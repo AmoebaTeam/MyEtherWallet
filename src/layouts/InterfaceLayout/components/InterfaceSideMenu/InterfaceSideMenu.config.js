@@ -33,36 +33,36 @@ export default {
         }
       ]
     },
-    {
-      name: 'swap',
-      routes: ['/interface/swap'],
-      icons: {
-        active: require('@/assets/images/sidemenu/swap-active.svg'),
-        inactive: require('@/assets/images/sidemenu/swap.svg')
-      },
-      titleKey: 'common.swap',
-      children: []
-    },
-    {
-      name: 'dapps',
-      routes: [
-        '/interface/dapps',
-        '/interface/dapps/register-domain',
-        '/interface/dapps/register-domain/bid',
-        '/interface/dapps/register-domain/reveal',
-        '/interface/dapps/register-domain/owned',
-        '/interface/dapps/register-domain/forbidden',
-        '/interface/dapps/register-domain/auction',
-        '/interface/dapps/register-domain/confirm',
-        '/interface/dapps/domain-sale'
-      ],
-      icons: {
-        active: require('@/assets/images/sidemenu/dapps-active.svg'),
-        inactive: require('@/assets/images/sidemenu/dapps.svg')
-      },
-      titleKey: 'common.dapps',
-      children: []
-    },
+//    {
+//      name: 'swap',
+//      routes: ['/interface/swap'],
+//      icons: {
+//        active: require('@/assets/images/sidemenu/swap-active.svg'),
+//        inactive: require('@/assets/images/sidemenu/swap.svg')
+//      },
+//      titleKey: 'common.swap',
+//      children: []
+//    },
+//    {
+//      name: 'dapps',
+//      routes: [
+//        '/interface/dapps',
+//        '/interface/dapps/register-domain',
+//        '/interface/dapps/register-domain/bid',
+//        '/interface/dapps/register-domain/reveal',
+//        '/interface/dapps/register-domain/owned',
+//        '/interface/dapps/register-domain/forbidden',
+//        '/interface/dapps/register-domain/auction',
+//        '/interface/dapps/register-domain/confirm',
+//        '/interface/dapps/domain-sale'
+//      ],
+//      icons: {
+//        active: require('@/assets/images/sidemenu/dapps-active.svg'),
+//        inactive: require('@/assets/images/sidemenu/dapps.svg')
+//      },
+//      titleKey: 'common.dapps',
+//      children: []
+//    },
     {
       name: 'contracts',
       routes: [

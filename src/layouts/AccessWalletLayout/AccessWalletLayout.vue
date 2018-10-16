@@ -1,10 +1,10 @@
 <template>
   <div>
     <access-my-wallet-container/>
-    <price-bar 
+<!--    <price-bar 
       :v-if="$store.state.online && tokens.length > 1" 
       :tokens="tokens"/>
-    <faqs/>
+    <faqs/> -->
   </div>
 </template>
 
