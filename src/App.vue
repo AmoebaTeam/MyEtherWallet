@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <header-container/>
-    <router-view/>
-    <footer-container/>
-    <confirmation-container/>
+    <header-container />
+    <router-view />
+    <footer-container />
+    <confirmation-container />
   </div>
 </template>
 
@@ -26,10 +26,11 @@ export default {
   },
   mounted() {
     // Can't use before mount because that lifecycle isn't called if serving via static files
+    console.log(this.$store.state.Networks);
     const network =
       store.get('network') !== undefined
         ? store.get('network')
-        : this.$store.state.Networks['ETH'][3];
+        : this.$store.state.Networks['AMBA'][3];
     const hostUrl = url.parse(network.url);
     const newWeb3 = new Web3(
       `${hostUrl.protocol}//${hostUrl.hostname}:${network.port}${

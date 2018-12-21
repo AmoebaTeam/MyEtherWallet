@@ -15,8 +15,8 @@ function getDerivationPath(networkName) {
     };
   }
   return {
-    dpath: derivationPaths[nodes.ETH.name],
-    label: nodes[nodes.ETH.name].name_long
+    dpath: derivationPaths[nodes.AMBA.name],
+    label: nodes[nodes.AMBA.name].name_long
   };
 }
 
