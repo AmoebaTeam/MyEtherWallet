@@ -9,7 +9,7 @@ export default {
   homePage: 'https://ethereumclassic.org/',
   blockExplorerTX: 'https://gastracker.io/tx/[[txHash]]',
   blockExplorerAddr: 'https://gastracker.io/address/[[address]]',
-  chainID: 123456,
+  chainID: 41825,
   tokens: tokens,
   contracts: contracts,
   ensResolver: '',
